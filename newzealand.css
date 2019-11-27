@@ -1,0 +1,10 @@
+body {
+    display: block;
+    margin: 0px;
+}
+.top {
+    background-color: #171717;
+    margin: 10px 10px 0px 10px;
+    width: 794px;
+    height: 97px;
+}
