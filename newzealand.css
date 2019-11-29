@@ -1,12 +1,10 @@
 .top {
-  width: 200px;
   height: 100px;
   background-color: #171717;
   position: relative;
 }
 body {
   margin: 0px;
-  font-size: small;
 }
 .logo {
   margin-left: 15%;
