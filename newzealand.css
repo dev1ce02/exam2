@@ -1,3 +1,4 @@
+
 .top {
   height: 100px;
   background-color: #171717;
@@ -5,6 +6,7 @@
 }
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 .logo {
   margin-left: 15%;
@@ -24,9 +26,10 @@ body {
 ul li {
   display: inline-block;
   padding-right: 29px;
-  color: #ffffff;
   position: relative;
   font-size: 14px;
+  left: 300px;
+  top: -22px;
 }
 ul li a {
   box-sizing: content-box;
@@ -34,4 +37,37 @@ ul li a {
   display: block;
   height: 25px;
   line-height: 25px;
+  text-decoration: none;
+}
+.home {
+  position: relative;
+  top: -6.49px;
+  left: 18%;
+}
+.fengjing {
+  width: 1600px;
+  background-image: url(./picture/fengjing.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.three {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.wengzi {
+  padding-left: 650px;
+  padding-right: 650px;
+  margin: 0 auto;
+  width: 300px
+}
+.intro {
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+.copy-block a {
+  color: #0093de;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
 }
